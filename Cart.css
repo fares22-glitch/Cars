@@ -1,0 +1,418 @@
+.header{
+    background-color: #00728D;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 40px;
+    width: auto;
+
+    left: calc(50% - 1135px/2 - 0.5px);
+    top: 20px;
+    position: absolute;
+    width: 1521px;
+    height: 79px;
+    left: 0px;
+    top: 0px;
+    }
+
+
+.header2{
+/* Navbar-content */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 40px;
+
+position: absolute;
+width: 1135px;
+height: 40px;
+left: calc(50% - 1135px/2 - 0.5px);
+top: 20px;
+
+
+    }
+    
+.img{
+ /* Logo-white */
+
+width: 99px;
+height: 39px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+    
+        
+}
+
+.location{
+        /* Location */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 103px;
+height: 39px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+    
+.search{
+    /* Timeline/Search bar */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+/* align-items: flex-start; */
+padding: 0px;
+
+width: 444px;
+height: 40px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+}
+.search2{
+    width: 258px;
+
+}
+.selsectCategories{
+    width: 139px;
+
+}
+
+.butn{
+    
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+    isolation: isolate;
+    width: 47px;
+    height: 40px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    border-radius: 30%;
+    border: none;
+    outline: none;
+    
+        
+} 
+.flag{
+    /* Frame 73 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 4px;
+
+width: 47px;
+height: 21px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+}
+
+.text1{
+/* Hello, Kiran Account for Eshopify... */
+
+width: 183px;
+height: 69px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+/* or 150% */
+
+color: rgba(255, 255, 229, 0.898039);
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+
+}
+.spann{
+    font-weight: 550;
+font-size: 18px;
+}
+
+.cart1{
+ /* Shoping carts */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 4px;
+
+width: 63px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+flex-grow: 0;
+
+    
+}
+.cart2{
+        /* Cart */
+    
+    width: 77px;
+    height: 24px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    /* identical to box height, or 100% */
+    
+    color: #FFFFFF;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    background-color: #00728D;
+     border: none;
+     outline: none;
+}
+
+.card3{
+        /* add_shopping_cart */
+    
+    width: 24px;
+    height: 24px;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    
+}
+
+.cart{
+/* Cart (2 Items) */
+
+width: 149px;
+height: 0px;
+
+/* Body 1: Roboto medium 24pt */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 23px;
+line-height: 28px;
+
+/* Grey-03 */
+color: #404040;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+}
+.cart1:hover{
+    background-color: #0f97b6;
+    .cart2{
+        background-color:  #0f97b6;
+
+    }.card3{
+        background-color:   #0f97b6;
+
+    }
+  
+}
+.title{
+    /* cART */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+padding: 0px;
+gap: 36px;
+
+position: absolute;
+width: 1072px;
+height: 1003px;
+left: 205px;
+top: 157px;
+
+
+
+}
+
+
+.title1{
+    /* Frame 39595 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 40px;
+
+width: 1072px;
+height: 527px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+.title2{
+/* Prodicts detials */
+
+width: 1072px;
+height: 559px;
+
+background: #FFFFFF;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+.update{
+/* Buttons */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 24px;
+
+width: 238px;
+height: 40px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+}
+.weight{
+    font-weight:600 ;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+table th {
+    background-color: #f2f2f2;
+    color: #333;
+    font-weight: bold;
+}
+/* table td img {
+    width: 50px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+} */
+
+.remove-icon {
+    width: 20px;   /* Set the desired width */
+    height: 20px;  /* Set the desired height */
+    
+    color: red;
+    cursor: pointer;
+}
+.totaly{
+    /* Total: $118 */
+
+width: 111px;
+height: 18px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 900;
+font-size: 20px;
+line-height: 18px;
+/* identical to box height, or 90% */
+
+/* Grey-03 */
+color: #404040;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.update {
+    display: flex;         
+    align-items: center;     
+    justify-content: flex-start; 
+    position: relative;     
+    left: 825px;            
+}
+
+
+.productImage{
+    width: 95px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+

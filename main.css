@@ -1,0 +1,1092 @@
+.header{
+    background-color: #00728D;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 40px;
+    width: auto;
+    left: calc(50% - 1135px/2 - 0.5px);
+    top: 20px;
+    position: absolute;
+    width: 1521px;
+    height: 79px;
+    left: 0px;
+    top: 0px;
+}
+
+.header2{
+    /* Navbar-content */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 40px;
+
+    position: absolute;
+    width: 1135px;
+    height: 40px;
+    left: calc(50% - 1135px/2 - 0.5px);
+    top: 20px;
+
+
+}
+.img{
+    /* Logo-white */
+
+    width: 99px;
+    height: 39px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+
+}
+
+
+.search{
+    /* Timeline/Search bar */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    /* align-items: flex-start; */
+    padding: 0px;
+
+    width: 400px;
+    height: 40px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+
+}
+
+.search2{
+    width: 258px;
+
+}
+.selsectCategories{
+    width: 139px;
+
+}
+.butn{
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+    isolation: isolate;
+    width: 47px;
+    height: 40px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    border-radius: 30%;
+    border: none;
+    outline: none;
+
+
+}
+
+.parts{
+    /* Frame 39511 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 34px;
+
+    width: 409px;
+    height: 18px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 5;
+    flex-grow: 0;
+
+}
+
+.home{
+    /* Home */
+
+    width: 38px;
+    height: 18px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height, or 129% */
+    text-align: center;
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    background-color: #00728D;
+    border: none;
+    outline: none;
+
+}
+
+
+.about{
+    /* About Us */
+    color: red;
+    width: 67px;
+    height: 18px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+
+    color: #91D2DF;
+
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    background-color: #00728D;
+    border: none;
+    outline: none;
+
+}
+.Shop{
+    /* Shop */
+
+    width: 33px;
+    height: 18px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height, or 129% */
+    text-align: center;
+
+    color: #91D2DF;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    background-color: #00728D;
+    border: none;
+    outline: none;
+}
+
+.Contact{
+    /* Contact Us */
+
+    width: 75px;
+    height: 18px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height, or 129% */
+    text-align: center;
+
+    color: #91D2DF;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+    background-color: #00728D;
+    border: none;
+    outline: none;
+
+}
+
+.Account{
+    /* My Account */
+
+    width: 82px;
+    height: 18px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height, or 129% */
+    text-align: center;
+
+    color: #91D2DF;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+    background-color: #00728D;
+    border: none;
+    outline: none;
+
+}
+
+
+.cart1{
+    /* Shoping carts */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 4px;
+
+    width: 63px;
+    height: 24px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 6;
+    flex-grow: 0;
+
+}
+.cart2{
+    /* Cart */
+
+    width: 35px;
+    height: 18px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    /* identical to box height, or 100% */
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    background-color: #00728D;
+    border: none;
+    outline: none;
+
+}
+
+.card3{
+    /* add_shopping_cart */
+
+    width: 24px;
+    height: 24px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+
+
+.right{
+    /* Frame 39489 */
+
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    right: 15px;
+    top: calc(50% - 48px/2 + 0.5px);
+
+    /* transform: rotate(-180deg); */
+
+    border: none;
+    outline: none;
+    background-color: white;
+
+    /* transform: rotate(-180deg); */
+
+}
+
+
+.left{
+
+
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 10px;
+    top: calc(50% - 48px/2 - 0.5px);
+    background-color: white;
+    outline:  none;
+    border: none;
+
+}
+.beauty{
+    color: #99715D;
+
+}
+
+.second{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 619px;
+
+    position: absolute;
+    width: 1138px;
+    height: 42px;
+    left: 151px;
+
+    top: 200px;
+}
+
+.category{
+    /* Categories */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 52px;
+
+    position: absolute;
+    width: 1138px;
+    height: 216px;
+    left: 151px;
+    top: 300px;
+}
+
+.exp{
+    /* Explore popular category */
+
+    width: 403px;
+    height: 42px;
+    /* Heading 1: Roboto 36pt */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 42px;
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+
+.see{
+    /* | See all */
+
+    width: 84px;
+    height: 28px;
+
+    /* Body 1: Roboto medium 24pt */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    /* line-height: 28px; */
+
+    color: #000000;
+    background-color: white;
+    outline: none;
+    border: none;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+
+}
+.seen{
+    /* Frame 39513 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+
+    width: 116px;
+    height: 28px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+
+.arrow{
+    /* arrow_back_ios_new */
+
+    width: 24px;
+    height: 24px;
+
+    /* transform: rotate(-180deg); */
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow:0;
+
+
+
+}
+.foot{
+    /* bRANDS */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 5px;
+
+    position: absolute;
+    width: 674px;
+    height: 400px;
+    left: 151px;
+    top: 550px;
+
+
+}
+
+.title{
+    /* Drag-Girls products */
+
+    /* width: 1440px;
+    height: 541px; */
+
+    width: 1400px;
+    height: 79px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+
+}
+
+.ti2{
+    /* Frame 39512 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 55px;
+
+    position: absolute;
+    width: 356px;
+    height: 280px;
+    left: 151px;
+    /* top: calc(50% - 280px/2 - 0.5px); */
+    top:130px;
+
+
+
+
+}
+
+
+
+.ti3{
+    /* Heading */
+
+    width: 356px;
+    height: 132px;
+
+    /* Headings/H1 */
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 66px;
+    /* or 118% */
+    color: #050608;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+
+}
+.ti4{
+
+    /* Heading */
+
+    width: 356px;
+    height: 132px;
+
+    /* Headings/H1 */
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 66px;
+    /* or 118% */
+
+    color: #B4856F;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+
+}
+
+.ti5{
+
+    /* Paragraph */
+
+    width: 306px;
+    height: 7px;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 540;
+    font-size: 20px;
+    line-height: 30px;
+    /* or 150% */
+
+    color: #24262C;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+
+
+
+}
+.bb{
+    /* buttons */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 24px;
+    gap: 10px;
+
+    width: 50px;
+    height: 20px;
+
+    background: #99715D;
+    border-radius: 4px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+
+
+
+}
+
+.drag{
+    /* Rectangle 1569 */
+
+    position: absolute;
+    width: 887px;
+    height: 700px;
+    left: 474px;
+    top: -80px;
+
+    background: url(.png);
+
+
+
+}
+
+
+
+
+
+.get{
+    /* Frame 39512 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+
+    position: absolute;
+    width: 356px;
+    height: 280px;
+    left: 151px;
+    top: calc(50% - 280px/2 - 0.5px);
+}
+.mak{
+    /* Rectangle 1569 */
+
+    position: absolute;
+    width: 887px;
+    height: 700px;
+    left: 474px;
+    top: -159px;
+
+    background: url(.png);
+}
+
+.bt{
+    /* Label */
+
+    width: 73px;
+    height: 20px;
+
+    /* M3/label/large */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.1px;
+
+    color: #FFFFFF;
+    background: #99715D;
+
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+    border: none;
+    outline: none;
+}
+
+.tii{
+
+
+    /* Heading */
+
+    width: 356px;
+    height: 132px;
+
+    /* Headings/H1 */
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 66px;
+    /* or 118% */
+
+    color: #050608;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+
+
+.pop{
+    /* Frame 39515 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 780px;
+
+    width: 243px;
+    height: 42px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 42px;
+}
+.brand{
+    /* brands */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 19px;
+
+    width: 674px;
+    height: 77.42px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.first{
+    /* Rectangle 1570 */
+
+    width: 178px;
+    height: 177px;
+
+    background: url(.png), #D9D9D9;
+    border-radius: 6px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+.sec{
+    /* Rectangle 1570 */
+
+    width: 178px;
+    height: 177px;
+
+    background: url(.png), #D9D9D9;
+    border-radius: 6px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+.third{
+    /* Rectangle 1570 */
+
+    width: 178px;
+    height: 177px;
+
+    background: url(.png), #D9D9D9;
+    border-radius: 6px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+.fourth{
+    /* Rectangle 1570 */
+
+    width: 178px;
+    height: 177px;
+
+    background: url(.png), #D9D9D9;
+    border-radius: 6px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+.fifth{
+    /* Rectangle 1570 */
+
+    width: 178px;
+    height: 177px;
+
+    background: url(.png), #D9D9D9;
+    border-radius: 6px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+.ff{
+    /* Beauty & Personal Care */
+
+    width: 211px;
+    height: 23px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+
+    font-size: 27px;
+    font-weight: 550;
+    line-height: 10px;
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+
+}
+.ss{
+    /* Health & Household */
+
+    width: 212px;
+    height: 90px;
+    /* 23 */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 27px;
+    font-weight: 550;
+    line-height: 10px;
+    color: #000000;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+.tt{
+    /* Home & Kitchen */
+
+    width: 190px;
+    height: 23px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 27px;
+    font-weight: 550;
+    line-height: 10px;
+    color: #000000;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+.f4{
+    /* Aladdin Pharmacy */
+
+    width: 180px;
+    height: 23px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 27px;
+    font-weight: 550;
+    line-height: 10px;
+    color: #000000;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+.f5{
+    /* Medical Instruments */
+
+    width: 210px;
+    height: 23px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 27px;
+    font-weight: 550;
+    line-height: 10px;
+    color: #000000;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+
+.ff1{
+    /* Frame 39515 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 0px;
+
+    width: 211px;
+    height: 216px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+
+
+#page:hover {
+    border-color: #3498db;
+    box-shadow: 0 0 10px rgba(52, 152, 219, 0.5);
+}
+.ff2{
+    /* Frame 39516 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 0px;
+
+    width: 217px;
+    height: 216px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+.ff2:hover {
+    border-color: #3498db;
+    box-shadow: 0 0 10px rgba(52, 152, 219, 0.5);
+}
+.ff3:hover {
+    border-color: #3498db;
+    box-shadow: 0 0 10px rgba(52, 152, 219, 0.5);
+}
+.ff4:hover {
+    border-color: #3498db;
+    box-shadow: 0 0 10px rgba(52, 152, 219, 0.5);
+}
+.ff5:hover {
+    border-color: #3498db;
+    box-shadow: 0 0 10px rgba(52, 152, 219, 0.5);
+}
+
+.ff3{
+    /* Frame 39517 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 0px;
+
+    width: 178px;
+    height: 216px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+
+}
+.ff4{
+    /* Frame 39518 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 0px;
+
+    width: 178px;
+    height: 216px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+
+}
+.ff5{
+    /* Frame 39519 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 0px;
+
+    width: 220px;
+    height: 216px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+
+}
+
+
+
